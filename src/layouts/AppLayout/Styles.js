@@ -5,5 +5,3 @@ export const Conteiner = styled.div`
   flex-direction: column;
   min-height: 100vh;
 `;
-
-
