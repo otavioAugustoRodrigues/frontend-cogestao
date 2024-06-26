@@ -43,9 +43,10 @@ export const DivForm = styled.div`
 
 export const Form = styled.form`
   width: 100%;
+  align-items: end;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
 `;
 
 export const ConteinerText = styled.div`
@@ -58,13 +59,37 @@ export const Text = styled.a`
   color: #fff;
   font-weight: bold;
 `;
+
+export const IconText = styled.div`
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+`;
+
 export const Inputs = styled.input`
   width: 100%;
-  height: 72px;
+  height: 52px;
   background-color: transparent;
   border: solid 2px white;
   border-radius: 4px;
   margin: 0 0 38px 0;
+  color: white;
+  font-size: 22px;
+`;
+
+export const DivCenter = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const DivType = styled.div`
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 `;
 
 //GERENCIAR EVENTO
