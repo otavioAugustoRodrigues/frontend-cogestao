@@ -11,6 +11,7 @@ import {
   IconText,
   DivCenter,
   DivType,
+  DropType,
 } from './Styles';
 
 import { LuPenLine } from 'react-icons/lu';
@@ -18,7 +19,6 @@ import { IoUnlink } from 'react-icons/io5';
 import { ImFilesEmpty } from 'react-icons/im';
 
 import { useState } from 'react';
-import { Dropdown } from 'primereact/dropdown';
 
 function Home() {
   const [selecteType, setSelectedType] = useState(null);
@@ -60,7 +60,7 @@ function Home() {
             <DivCenter>
               <DivType>
                 <Text>Categoria:</Text>
-                <Dropdown
+                <DropType
                   value={selecteType}
                   options={types}
                   onChange={onTypeChange}

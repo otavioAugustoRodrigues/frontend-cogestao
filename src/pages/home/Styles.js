@@ -1,4 +1,5 @@
 import { styled } from 'styled-components';
+import { Dropdown } from 'primereact/dropdown';
 
 export const ConteinerHome = styled.header`
   height: 100%;
@@ -90,6 +91,38 @@ export const DivType = styled.div`
   display: flex;
   flex-direction: column;
   align-items: start;
+`;
+
+export const DropType = styled(Dropdown)`
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border: solid 2px white;
+  border-radius: 5px;
+  min-width: 200px;
+  padding: 3%;
+  .p-dropdown-label {
+    color: white;
+  }
+  .p-inputtext {
+    color: white;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .p-dropdown-trigger-icon {
+    color: white;
+  }
+  .p-dropdown-item-label {
+    color: white;
+  }
+  .p-dropdown-items-wrapper {
+    border: solid 2px white;
+  }
 `;
 
 //GERENCIAR EVENTO
