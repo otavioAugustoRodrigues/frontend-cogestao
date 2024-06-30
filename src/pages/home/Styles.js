@@ -107,22 +107,39 @@ export const DropType = styled(Dropdown)`
   .p-dropdown-label {
     color: white;
   }
-  .p-inputtext {
-    color: white;
-    font-size: 14px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .p-dropdown-trigger-icon {
-    color: white;
-  }
-  .p-dropdown-item-label {
-    color: white;
-  }
-  .p-dropdown-items-wrapper {
-    border: solid 2px white;
+`;
+
+export const FormsButton = styled.button`
+  width: 30%;
+  height: 80px;
+  background-color: #f19709;
+  color: white;
+  border: solid 2px #f19709;
+  border-radius: 5px;
+  margin-top: 53px;
+  font-size: 28px;
+  font-family: Cabin;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.05);
   }
 `;
 
 //GERENCIAR EVENTO
+
+export const ConteinerEvents = styled.div`
+  height: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 97px 0;
+`;
+
+export const EventsTitle = styled.a`
+  font-size: 60px;
+  font-family: Cabin;
+  color: #eedac5;
+  font-weight: bold;
+`;
